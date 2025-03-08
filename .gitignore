@@ -1,0 +1,8 @@
+event-ingestion/node_modules
+event-ingestion/package-lock.json
+monitoring/node_modules
+monitoring/package-lock.json
+payment-processing/node_modules
+payment-processing/package-lock.json
+ride-matching/node_modules
+ride-matching/package-lock.json
