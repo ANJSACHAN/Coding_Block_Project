@@ -1,4 +1,4 @@
-# Event-Driven Scalable Data Processing System
+# Real-Time Event Processing System
 
 ## Introduction
 This project implements a scalable and resilient **event-driven system** for processing high-throughput real-time data streams using **RabbitMQ, MongoDB, Redis, GraphQL, Prometheus, Loki, and Grafana**. It features **four producers and four consumers**, ensuring fault tolerance, monitoring, and caching to enhance performance and reliability. The system is designed for high efficiency, leveraging **Redis caching** to store frequently accessed data and reduce database queries. Additionally, **GraphQL optimizes** data fetching, ensuring **minimal latency and improved performance**. The system is **fully containerized** with Docker, making it ready for Kubernetes (K8s) integration in the future.
