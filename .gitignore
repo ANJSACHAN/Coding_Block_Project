@@ -1,8 +1,49 @@
-event-ingestion/node_modules
-event-ingestion/package-lock.json
-monitoring/node_modules
-monitoring/package-lock.json
-payment-processing/node_modules
-payment-processing/package-lock.json
-ride-matching/node_modules
-ride-matching/package-lock.json
+# Ignore node_modules for all services
+producer-service1/node_modules
+producer-service2/node_modules
+producer-service3/node_modules
+producer-service4/node_modules
+consumer-service1/node_modules
+consumer-service2/node_modules
+consumer-service3/node_modules
+consumer-service4/node_modules
+
+# Ignore package-lock.json for all services
+producer-service1/package-lock.json
+producer-service2/package-lock.json
+producer-service3/package-lock.json
+producer-service4/package-lock.json
+consumer-service1/package-lock.json
+consumer-service2/package-lock.json
+consumer-service3/package-lock.json
+consumer-service4/package-lock.json
+data-access-service/package-lock.json
+data-access-service/node_modules
+
+# Ignore environment files
+.env
+producer-service1/.env
+producer-service2/.env
+producer-service3/.env
+producer-service4/.env
+consumer-service1/.env
+consumer-service2/.env
+consumer-service3/.env
+consumer-service4/.env
+data-access-service/.env
+
+# Ignore log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore Docker-related files (optional)
+docker-compose.override.yml
+.dockerignore
+
+# Ignore build and output directories
+dist/
+out/
+coverage/
